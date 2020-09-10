@@ -1,8 +1,7 @@
 setenv SSH_ENV $HOME/.ssh/environment
 
-set -gx PATH /home/lfa/.local/bin $PATH
-set -gx PATH /home/lfa/.krew/bin $PATH
-set -gx PATH /home/linuxbrew/.linuxbrew/bin/brew $PATH
+set -gx PATH $HOME/.local/bin $PATH
+set -gx PATH $HOME/.krew/bin $PATH
 
 function start_agent                                                                                                                                                                    
     echo "Initializing new SSH agent ..."
